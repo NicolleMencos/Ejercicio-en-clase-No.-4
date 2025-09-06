@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro - Feria Code & Connect</title>
+  <link rel="stylesheet" href="secciones.css">
+  <link rel="stylesheet" href="boton.css">
+  <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Feria Code & Connect</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="mision-vision.html">Misión y Visión</a></li>
+        <li><a href="empresas.html">Empresas</a></li>
+        <li><a href="horario.html">Horario</a></li>
+        <li><a href="preguntas.html">Preguntas Frecuentes</a></li>
+      </ul>
+    </nav>
+    <a href="index.html" class="boton-registrar">Regresar Ahora</a>
+  </header>
+
+  <main>
+    <section class="registro-contenedor">
+      <h1>Formulario de Registro</h1>
+      <p>Completa tus datos para participar en la Feria Code & Connect</p>
+      
+      <form class="form-registro">
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" name="telefono" required>
+
+        <label for="carrera">Carrera / Área de interés</label>
+        <input type="text" id="carrera" name="carrera" required>
+
+        <button type="submit" class="boton-registrar">Registrar</button>
+        <p id="respuesta"></p>
+        <script src="script.js"></script>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

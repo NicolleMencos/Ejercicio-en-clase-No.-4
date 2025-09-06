@@ -1,0 +1,63 @@
+.registro-contenedor {
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.registro-contenedor h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.registro-contenedor p {
+  margin-bottom: 20px;
+  color: #666;
+}
+
+.form-registro {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form-registro label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.form-registro input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border 0.3s;
+}
+
+.form-registro input:focus {
+  border-color: #60a5fa;
+  outline: none;
+}
+
+.form-registro .boton-registrar {
+  align-self: center;
+  width: 100%;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#respuesta {
+  text-align: center;       /* Centra horizontalmente */
+  margin-top: 20px;         /* Espacio debajo del formulario */
+  font-weight: bold;
+  color: #51149b;           /* Verde pastel (puedes cambiar) */
+  font-size: 16px;
+}
